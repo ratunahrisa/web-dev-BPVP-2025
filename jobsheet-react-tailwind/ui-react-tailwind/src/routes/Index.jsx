@@ -1,14 +1,14 @@
-import { BrowserRouter, Routes, Route, useNavigate, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, Link } from 'react-router-dom';
 import { useContext, useState } from 'react';
-import { AuthContext } from './context/AuthContext';
-import Navbar from './components/Navbar';
-import DataPeserta from './pages/peserta/DataPeserta';
-import FormPeserta from './pages/peserta/FormPeserta';
-import Home from './pages/Home';
-import Register from './pages/Register';
-import Login from './pages/Login';
-import Layout from './components/Layout';
-import Footer from './components/Footer';
+import { AuthContext } from '../context/AuthContext';
+import Navbar from '../components/Navbar';
+import DataPeserta from '../pages/peserta/DataPeserta';
+import FormPeserta from '../pages/peserta/FormPeserta';
+import Home from '../pages/Home';
+import Register from '../pages/Register';
+import Login from '../pages/Login';
+import Layout from '../components/Layout';
+import Footer from '../components/Footer';
 
 export default function App() {
   const { user } = useContext(AuthContext);

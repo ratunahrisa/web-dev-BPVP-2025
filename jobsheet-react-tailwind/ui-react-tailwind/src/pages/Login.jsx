@@ -1,10 +1,10 @@
 import { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { baseUrl } from '../config/Constants';
-import { AuthContext } from '../../context/AuthContext';
+import { AuthContext } from '../context/AuthContext';
 import axios from 'axios';
-import Input from '../../components/Input';
-import Button from '../../components/Button';
+import Input from '../components/Input';
+import Button from '../components/Button';
 
 function Login({ onSwitchToRegister, onClose }) {
   const [form, setForm] = useState({ email: '', password: '' });

@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { baseUrl } from '../config/Constants';
 import axios from 'axios';
-import Input from '../../components/Input';
-import Button from '../../components/Button';
+import Input from '../components/Input';
+import Button from '../components/Button';
 
 function Register({ onSwitchToLogin }) {
   const [form, setForm] = useState({ name: '', email: '', password: '' });

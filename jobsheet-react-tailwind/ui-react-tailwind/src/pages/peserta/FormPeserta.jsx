@@ -1,8 +1,8 @@
 import { useParams, useNavigate, useLocation, useContext, useEffect, useState } from "react";
-import { baseUrl } from "../src/config/constants";
-import { AuthContext } from "../src/context/AuthContext";
+import { baseUrl } from "/src/config/constants";
+import { AuthContext } from "/src/context/AuthContext";
 import axios from 'axios';
-import Form from "../src/components/Form";
+import Form from "/src/components/Form";
 import Swal from 'sweetalert2';
 
 function FormPeserta() {
